@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		233F50732149F9C5003FBA80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F50722149F9C5003FBA80 /* AppDelegate.m */; };
+		233F50762149F9C5003FBA80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F50752149F9C5003FBA80 /* ViewController.m */; };
+		233F50792149F9C5003FBA80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F50772149F9C5003FBA80 /* Main.storyboard */; };
+		233F507B2149F9C6003FBA80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233F507A2149F9C6003FBA80 /* Assets.xcassets */; };
+		233F507E2149F9C6003FBA80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233F507C2149F9C6003FBA80 /* LaunchScreen.storyboard */; };
+		233F50812149F9C6003FBA80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F50802149F9C6003FBA80 /* main.m */; };
+		233F508B2149F9C6003FBA80 /* SKAutoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 233F508A2149F9C6003FBA80 /* SKAutoTestTests.m */; };
+		234FDAAD215E1CCD00B60901 /* SKNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 234FDAAC215E1CCD00B60901 /* SKNetworkTest.m */; };
+		234FDAB0215E1CFA00B60901 /* SKURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 234FDAAF215E1CFA00B60901 /* SKURLProtocol.m */; };
+		238913EC215B363F00BB7A70 /* SKForwardObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 238913EB215B363F00BB7A70 /* SKForwardObject.m */; };
+		238913EF215B369100BB7A70 /* ForwardTestA.m in Sources */ = {isa = PBXBuildFile; fileRef = 238913EE215B369100BB7A70 /* ForwardTestA.m */; };
+		239613E3216C994C00CC4931 /* SKBlockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 239613E2216C994C00CC4931 /* SKBlockTest.m */; };
+		23BEC4E2215239B500B6296A /* RoseAD.m in Sources */ = {isa = PBXBuildFile; fileRef = 23BEC4E1215239B500B6296A /* RoseAD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233F50872149F9C6003FBA80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233F50662149F9C5003FBA80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233F506D2149F9C5003FBA80;
+			remoteInfo = SKAutoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		233F506E2149F9C5003FBA80 /* SKAutoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKAutoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F50712149F9C5003FBA80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		233F50722149F9C5003FBA80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		233F50742149F9C5003FBA80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		233F50752149F9C5003FBA80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		233F50782149F9C5003FBA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233F507A2149F9C6003FBA80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233F507D2149F9C6003FBA80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233F507F2149F9C6003FBA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233F50802149F9C6003FBA80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		233F50862149F9C6003FBA80 /* SKAutoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKAutoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		233F508A2149F9C6003FBA80 /* SKAutoTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKAutoTestTests.m; sourceTree = "<group>"; };
+		233F508C2149F9C6003FBA80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		234FDAAB215E1CCD00B60901 /* SKNetworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKNetworkTest.h; sourceTree = "<group>"; };
+		234FDAAC215E1CCD00B60901 /* SKNetworkTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKNetworkTest.m; sourceTree = "<group>"; };
+		234FDAAE215E1CFA00B60901 /* SKURLProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKURLProtocol.h; sourceTree = "<group>"; };
+		234FDAAF215E1CFA00B60901 /* SKURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKURLProtocol.m; sourceTree = "<group>"; };
+		238913EA215B363F00BB7A70 /* SKForwardObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKForwardObject.h; sourceTree = "<group>"; };
+		238913EB215B363F00BB7A70 /* SKForwardObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKForwardObject.m; sourceTree = "<group>"; };
+		238913ED215B369100BB7A70 /* ForwardTestA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardTestA.h; sourceTree = "<group>"; };
+		238913EE215B369100BB7A70 /* ForwardTestA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardTestA.m; sourceTree = "<group>"; };
+		239613E1216C994C00CC4931 /* SKBlockTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKBlockTest.h; sourceTree = "<group>"; };
+		239613E2216C994C00CC4931 /* SKBlockTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKBlockTest.m; sourceTree = "<group>"; };
+		23BEC4E0215239B500B6296A /* RoseAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoseAD.h; sourceTree = "<group>"; };
+		23BEC4E1215239B500B6296A /* RoseAD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoseAD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233F506B2149F9C5003FBA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F50832149F9C6003FBA80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233F50652149F9C5003FBA80 = {
+			isa = PBXGroup;
+			children = (
+				233F50702149F9C5003FBA80 /* SKAutoTest */,
+				233F50892149F9C6003FBA80 /* SKAutoTestTests */,
+				233F506F2149F9C5003FBA80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		233F506F2149F9C5003FBA80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233F506E2149F9C5003FBA80 /* SKAutoTest.app */,
+				233F50862149F9C6003FBA80 /* SKAutoTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233F50702149F9C5003FBA80 /* SKAutoTest */ = {
+			isa = PBXGroup;
+			children = (
+				239613E4216C998700CC4931 /* RuntimeForwarding */,
+				239613E0216C993600CC4931 /* Block */,
+				234FDAAA215E1C9700B60901 /* Network */,
+				23BEC4E0215239B500B6296A /* RoseAD.h */,
+				23BEC4E1215239B500B6296A /* RoseAD.m */,
+				233F50712149F9C5003FBA80 /* AppDelegate.h */,
+				233F50722149F9C5003FBA80 /* AppDelegate.m */,
+				233F50742149F9C5003FBA80 /* ViewController.h */,
+				233F50752149F9C5003FBA80 /* ViewController.m */,
+				233F50772149F9C5003FBA80 /* Main.storyboard */,
+				233F507A2149F9C6003FBA80 /* Assets.xcassets */,
+				233F507C2149F9C6003FBA80 /* LaunchScreen.storyboard */,
+				233F507F2149F9C6003FBA80 /* Info.plist */,
+				233F50802149F9C6003FBA80 /* main.m */,
+			);
+			path = SKAutoTest;
+			sourceTree = "<group>";
+		};
+		233F50892149F9C6003FBA80 /* SKAutoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				233F508A2149F9C6003FBA80 /* SKAutoTestTests.m */,
+				233F508C2149F9C6003FBA80 /* Info.plist */,
+			);
+			path = SKAutoTestTests;
+			sourceTree = "<group>";
+		};
+		234FDAAA215E1C9700B60901 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				234FDAAB215E1CCD00B60901 /* SKNetworkTest.h */,
+				234FDAAC215E1CCD00B60901 /* SKNetworkTest.m */,
+				234FDAAE215E1CFA00B60901 /* SKURLProtocol.h */,
+				234FDAAF215E1CFA00B60901 /* SKURLProtocol.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		239613E0216C993600CC4931 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				239613E1216C994C00CC4931 /* SKBlockTest.h */,
+				239613E2216C994C00CC4931 /* SKBlockTest.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		239613E4216C998700CC4931 /* RuntimeForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				238913EA215B363F00BB7A70 /* SKForwardObject.h */,
+				238913EB215B363F00BB7A70 /* SKForwardObject.m */,
+				238913ED215B369100BB7A70 /* ForwardTestA.h */,
+				238913EE215B369100BB7A70 /* ForwardTestA.m */,
+			);
+			path = RuntimeForwarding;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		233F506D2149F9C5003FBA80 /* SKAutoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F508F2149F9C6003FBA80 /* Build configuration list for PBXNativeTarget "SKAutoTest" */;
+			buildPhases = (
+				233F506A2149F9C5003FBA80 /* Sources */,
+				233F506B2149F9C5003FBA80 /* Frameworks */,
+				233F506C2149F9C5003FBA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKAutoTest;
+			productName = SKAutoTest;
+			productReference = 233F506E2149F9C5003FBA80 /* SKAutoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		233F50852149F9C6003FBA80 /* SKAutoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233F50922149F9C6003FBA80 /* Build configuration list for PBXNativeTarget "SKAutoTestTests" */;
+			buildPhases = (
+				233F50822149F9C6003FBA80 /* Sources */,
+				233F50832149F9C6003FBA80 /* Frameworks */,
+				233F50842149F9C6003FBA80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233F50882149F9C6003FBA80 /* PBXTargetDependency */,
+			);
+			name = SKAutoTestTests;
+			productName = SKAutoTestTests;
+			productReference = 233F50862149F9C6003FBA80 /* SKAutoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233F50662149F9C5003FBA80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zhb;
+				TargetAttributes = {
+					233F506D2149F9C5003FBA80 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					233F50852149F9C6003FBA80 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 233F506D2149F9C5003FBA80;
+					};
+				};
+			};
+			buildConfigurationList = 233F50692149F9C5003FBA80 /* Build configuration list for PBXProject "SKAutoTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 233F50652149F9C5003FBA80;
+			productRefGroup = 233F506F2149F9C5003FBA80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				233F506D2149F9C5003FBA80 /* SKAutoTest */,
+				233F50852149F9C6003FBA80 /* SKAutoTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233F506C2149F9C5003FBA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F507E2149F9C6003FBA80 /* LaunchScreen.storyboard in Resources */,
+				233F507B2149F9C6003FBA80 /* Assets.xcassets in Resources */,
+				233F50792149F9C5003FBA80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F50842149F9C6003FBA80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233F506A2149F9C5003FBA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23BEC4E2215239B500B6296A /* RoseAD.m in Sources */,
+				234FDAAD215E1CCD00B60901 /* SKNetworkTest.m in Sources */,
+				238913EF215B369100BB7A70 /* ForwardTestA.m in Sources */,
+				233F50762149F9C5003FBA80 /* ViewController.m in Sources */,
+				239613E3216C994C00CC4931 /* SKBlockTest.m in Sources */,
+				238913EC215B363F00BB7A70 /* SKForwardObject.m in Sources */,
+				234FDAB0215E1CFA00B60901 /* SKURLProtocol.m in Sources */,
+				233F50812149F9C6003FBA80 /* main.m in Sources */,
+				233F50732149F9C5003FBA80 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233F50822149F9C6003FBA80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233F508B2149F9C6003FBA80 /* SKAutoTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233F50882149F9C6003FBA80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233F506D2149F9C5003FBA80 /* SKAutoTest */;
+			targetProxy = 233F50872149F9C6003FBA80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		233F50772149F9C5003FBA80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233F50782149F9C5003FBA80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		233F507C2149F9C6003FBA80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233F507D2149F9C6003FBA80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233F508D2149F9C6003FBA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		233F508E2149F9C6003FBA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233F50902149F9C6003FBA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKAutoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skate.SKAutoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		233F50912149F9C6003FBA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKAutoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skate.SKAutoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		233F50932149F9C6003FBA80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKAutoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skate.SKAutoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKAutoTest.app/SKAutoTest";
+			};
+			name = Debug;
+		};
+		233F50942149F9C6003FBA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SKAutoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.skate.SKAutoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKAutoTest.app/SKAutoTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233F50692149F9C5003FBA80 /* Build configuration list for PBXProject "SKAutoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F508D2149F9C6003FBA80 /* Debug */,
+				233F508E2149F9C6003FBA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F508F2149F9C6003FBA80 /* Build configuration list for PBXNativeTarget "SKAutoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F50902149F9C6003FBA80 /* Debug */,
+				233F50912149F9C6003FBA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233F50922149F9C6003FBA80 /* Build configuration list for PBXNativeTarget "SKAutoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233F50932149F9C6003FBA80 /* Debug */,
+				233F50942149F9C6003FBA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 233F50662149F9C5003FBA80 /* Project object */;
+}
